@@ -648,41 +648,8 @@ if debug_button:
 
             error_message = str(e)
 
-            if (
-                "429" in error_message
-                or "RESOURCE_EXHAUSTED" in error_message
-            ):
-
-                st.error(
-                    "⚠️ Gemini API quota has been exhausted."
-                )
-
-                st.info(
-                    "Switch to Demo Mode to demonstrate the "
-                    "complete debugging workflow without using "
-                    "the Gemini API."
-                )
-
-            elif (
-                "503" in error_message
-                or "UNAVAILABLE" in error_message
-            ):
-
-                st.error(
-                    "⚠️ Gemini is temporarily unavailable."
-                )
-
-                st.info(
-                    "Please wait and try Live AI Mode again later."
-                )
-
-            else:
-
-                st.error(
-                    "❌ Something went wrong while debugging."
-                )
-
-                st.code(error_message)
+            st.error("❌ Gemini Error")
+            st.code(error_message)
 
 
 # -----------------------------
