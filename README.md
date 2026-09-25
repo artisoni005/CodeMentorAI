@@ -2,6 +2,14 @@
 
 ## AI Coding Mentor & Intelligent Debugger
 
+## 🚀 Live Demo
+
+👉 [Try CodeMentor AI](https://codementorai-ic27cgk7bbyh2ftxh2vt2j.streamlit.app/)
+
+## 💻 GitHub Repository
+
+👉 [View Source Code](https://github.com/artisoni005/CodeMentorAI)
+
 CodeMentor AI is an AI-powered coding mentor designed to help beginner programmers **understand and debug programming errors** instead of simply providing a replacement solution.
 
 The system follows a structured debugging workflow where different AI agents perform different responsibilities such as code analysis, bug diagnosis, fix suggestion, review, and test-case generation.
